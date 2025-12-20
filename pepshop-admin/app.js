@@ -12,11 +12,14 @@ import { FacebookAuth } from "@storecraft/core/auth/providers/facebook"
 import { App } from "@storecraft/core"
 import { PostmanExtension } from "@storecraft/core/extensions/postman"
 
+console.log('secret token:', process.env.AUTH_SECRET_ACCESS_TOKEN);
+
 export const app = new App({
   general_store_name: "pepshop",
   auth_admins_emails: ["craigpestell@gmail.com"],
   general_store_support_email:
     "craigpestell@gmail.com",
+  auth_secret_access_token: process.env.AUTH_SECRET_ACCESS_TOKEN
 })
   .withPlatform(new NodePlatform({}))
   .withDatabase(new MySQL({

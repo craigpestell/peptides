@@ -1,0 +1,267 @@
+2025-12-20T05:21:17: StorecraftError: [
+2025-12-20T05:21:17:   {
+2025-12-20T05:21:17:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:21:17:   }
+2025-12-20T05:21:17: ]
+2025-12-20T05:21:17:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:21:17:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:21:17:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:21:17:     at file:///var/www/pepshop/pepshop-admin/app.js:57:4
+2025-12-20T05:21:17:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:21:17:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:21:17:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:21:17:   code: 400
+2025-12-20T05:21:17: }
+2025-12-20T05:46:30: StorecraftError: [
+2025-12-20T05:46:30:   {
+2025-12-20T05:46:30:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:46:30:   }
+2025-12-20T05:46:30: ]
+2025-12-20T05:46:30:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:46:30:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:46:30:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:46:30:     at file:///var/www/pepshop/pepshop-admin/app.js:57:4
+2025-12-20T05:46:30:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:46:30:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:46:30:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:46:30:   code: 400
+2025-12-20T05:46:30: }
+2025-12-20T05:50:46: StorecraftError: [
+2025-12-20T05:50:46:   {
+2025-12-20T05:50:46:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:50:46:   }
+2025-12-20T05:50:46: ]
+2025-12-20T05:50:46:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:50:46:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:50:46:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:50:46:     at file:///var/www/pepshop/pepshop-admin/app.js:58:4
+2025-12-20T05:50:46:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:50:46:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:50:46:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:50:46:   code: 400
+2025-12-20T05:50:46: }
+2025-12-20T05:52:53: secret token: undefined
+2025-12-20T05:52:53: StorecraftError: [
+2025-12-20T05:52:53:   {
+2025-12-20T05:52:53:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:52:53:   }
+2025-12-20T05:52:53: ]
+2025-12-20T05:52:53:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:52:53:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:52:53:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:52:53:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:52:53:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:52:53:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:52:53:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:52:53:   code: 400
+2025-12-20T05:52:53: }
+2025-12-20T05:53:00: secret token: undefined
+2025-12-20T05:53:00: StorecraftError: [
+2025-12-20T05:53:00:   {
+2025-12-20T05:53:00:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:53:00:   }
+2025-12-20T05:53:00: ]
+2025-12-20T05:53:00:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:53:00:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:53:00:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:53:00:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:53:00:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:53:00:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:53:00:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:53:00:   code: 400
+2025-12-20T05:53:00: }
+2025-12-20T05:53:07: secret token: undefined
+2025-12-20T05:53:07: StorecraftError: [
+2025-12-20T05:53:07:   {
+2025-12-20T05:53:07:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:53:07:   }
+2025-12-20T05:53:07: ]
+2025-12-20T05:53:07:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:53:07:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:53:07:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:53:07:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:53:07:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:53:07:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:53:07:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:53:07:   code: 400
+2025-12-20T05:53:07: }
+2025-12-20T05:53:15: secret token: undefined
+2025-12-20T05:53:15: StorecraftError: [
+2025-12-20T05:53:15:   {
+2025-12-20T05:53:15:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:53:15:   }
+2025-12-20T05:53:15: ]
+2025-12-20T05:53:15:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:53:15:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:53:15:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:53:15:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:53:15:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:53:15:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:53:15:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:53:15:   code: 400
+2025-12-20T05:53:15: }
+2025-12-20T05:53:22: secret token: undefined
+2025-12-20T05:53:22: StorecraftError: [
+2025-12-20T05:53:22:   {
+2025-12-20T05:53:22:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:53:22:   }
+2025-12-20T05:53:22: ]
+2025-12-20T05:53:22:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:53:22:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:53:22:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:53:22:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:53:22:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:53:22:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:53:22:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:53:22:   code: 400
+2025-12-20T05:53:22: }
+2025-12-20T05:59:04: secret token: undefined
+2025-12-20T05:59:04: StorecraftError: [
+2025-12-20T05:59:04:   {
+2025-12-20T05:59:04:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:59:04:   }
+2025-12-20T05:59:04: ]
+2025-12-20T05:59:04:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:59:04:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:59:04:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:59:04:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:59:04:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:59:04:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:59:04:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:59:04:   code: 400
+2025-12-20T05:59:04: }
+2025-12-20T05:59:11: secret token: undefined
+2025-12-20T05:59:11: StorecraftError: [
+2025-12-20T05:59:11:   {
+2025-12-20T05:59:11:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:59:11:   }
+2025-12-20T05:59:11: ]
+2025-12-20T05:59:11:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:59:11:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:59:11:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:59:11:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:59:11:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:59:11:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:59:11:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:59:11:   code: 400
+2025-12-20T05:59:11: }
+2025-12-20T05:59:18: secret token: undefined
+2025-12-20T05:59:18: StorecraftError: [
+2025-12-20T05:59:18:   {
+2025-12-20T05:59:18:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:59:18:   }
+2025-12-20T05:59:18: ]
+2025-12-20T05:59:18:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:59:18:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:59:18:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:59:18:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:59:18:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:59:18:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:59:18:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:59:18:   code: 400
+2025-12-20T05:59:18: }
+2025-12-20T05:59:25: secret token: undefined
+2025-12-20T05:59:25: StorecraftError: [
+2025-12-20T05:59:25:   {
+2025-12-20T05:59:25:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:59:25:   }
+2025-12-20T05:59:25: ]
+2025-12-20T05:59:25:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:59:25:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:59:25:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:59:25:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:59:25:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:59:25:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:59:25:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:59:25:   code: 400
+2025-12-20T05:59:25: }
+2025-12-20T05:59:32: secret token: undefined
+2025-12-20T05:59:32: StorecraftError: [
+2025-12-20T05:59:32:   {
+2025-12-20T05:59:32:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T05:59:32:   }
+2025-12-20T05:59:32: ]
+2025-12-20T05:59:32:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T05:59:32:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T05:59:32:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T05:59:32:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T05:59:32:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T05:59:32:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T05:59:32:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T05:59:32:   code: 400
+2025-12-20T05:59:32: }
+2025-12-20T06:00:52: secret token: undefined
+2025-12-20T06:00:52: StorecraftError: [
+2025-12-20T06:00:52:   {
+2025-12-20T06:00:52:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T06:00:52:   }
+2025-12-20T06:00:52: ]
+2025-12-20T06:00:52:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T06:00:52:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T06:00:52:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T06:00:52:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T06:00:52:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T06:00:52:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T06:00:52:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T06:00:52:   code: 400
+2025-12-20T06:00:52: }
+2025-12-20T06:00:59: secret token: undefined
+2025-12-20T06:00:59: StorecraftError: [
+2025-12-20T06:00:59:   {
+2025-12-20T06:00:59:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T06:00:59:   }
+2025-12-20T06:00:59: ]
+2025-12-20T06:00:59:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T06:00:59:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T06:00:59:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T06:00:59:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T06:00:59:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T06:00:59:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T06:00:59:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T06:00:59:   code: 400
+2025-12-20T06:00:59: }
+2025-12-20T06:01:06: secret token: undefined
+2025-12-20T06:01:06: StorecraftError: [
+2025-12-20T06:01:06:   {
+2025-12-20T06:01:06:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T06:01:06:   }
+2025-12-20T06:01:06: ]
+2025-12-20T06:01:06:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T06:01:06:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T06:01:06:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T06:01:06:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T06:01:06:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T06:01:06:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T06:01:06:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T06:01:06:   code: 400
+2025-12-20T06:01:06: }
+2025-12-20T06:01:13: secret token: undefined
+2025-12-20T06:01:13: StorecraftError: [
+2025-12-20T06:01:13:   {
+2025-12-20T06:01:13:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T06:01:13:   }
+2025-12-20T06:01:13: ]
+2025-12-20T06:01:13:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T06:01:13:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T06:01:13:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T06:01:13:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T06:01:13:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T06:01:13:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T06:01:13:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T06:01:13:   code: 400
+2025-12-20T06:01:13: }
+2025-12-20T06:01:20: secret token: undefined
+2025-12-20T06:01:20: StorecraftError: [
+2025-12-20T06:01:20:   {
+2025-12-20T06:01:20:     "message": "Storecraft:: Missing `auth_secret_access_token`"
+2025-12-20T06:01:20:   }
+2025-12-20T06:01:20: ]
+2025-12-20T06:01:20:     at assert (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/api/utils.func.js:57:11)
+2025-12-20T06:01:20:     at #settle_config_after_init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:286:5)
+2025-12-20T06:01:20:     at App.init (file:///var/www/pepshop/pepshop-admin/node_modules/@storecraft/core/index.js:324:37)
+2025-12-20T06:01:20:     at file:///var/www/pepshop/pepshop-admin/app.js:60:4
+2025-12-20T06:01:20:     at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+2025-12-20T06:01:20:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-20T06:01:20:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26) {
+2025-12-20T06:01:20:   code: 400
+2025-12-20T06:01:20: }

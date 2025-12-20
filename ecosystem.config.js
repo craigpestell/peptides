@@ -1,6 +1,3 @@
-# PM2 Ecosystem Configuration
-# This file defines how PM2 should manage your applications
-
 module.exports = {
   apps: [
     {

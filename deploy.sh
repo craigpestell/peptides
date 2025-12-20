@@ -7,8 +7,8 @@ set -e  # Exit on any error
 
 # Configuration
 APP_DIR="/var/www/pepshop"
-DOMAIN="yourdomain.com"  # Update this with your actual domain
-API_DOMAIN="api.yourdomain.com"  # Update this with your actual API domain
+DOMAIN="pepshop.ca"  # Update this with your actual domain
+API_DOMAIN="api.pepshop.ca"  # Update this with your actual API domain
 BACKEND_DIR="$APP_DIR/pepshop-admin"
 FRONTEND_DIR="$APP_DIR/pepshop-frontend"
 
@@ -34,14 +34,14 @@ install_dependencies() {
     apt update && apt upgrade -y
     
     # Install Node.js 18
-    curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
-    apt-get install -y nodejs
+    # curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+    # apt-get install -y nodejs
     
     # Install other dependencies
-    apt install -y nginx mysql-server git ufw
+    # apt install -y nginx mysql-server git ufw
     
     # Install PM2 globally
-    npm install -g pm2
+    # npm install -g pm2
     
     echo "✅ Dependencies installed successfully"
 }
@@ -123,8 +123,8 @@ configure_nginx() {
     cp $APP_DIR/nginx-subdomain.conf /etc/nginx/sites-available/pepshop
     
     # Update domain names in config
-    sed -i "s/yourdomain.com/$DOMAIN/g" /etc/nginx/sites-available/pepshop
-    sed -i "s/api.yourdomain.com/$API_DOMAIN/g" /etc/nginx/sites-available/pepshop
+    sed -i "s/pepshop.ca/$DOMAIN/g" /etc/nginx/sites-available/pepshop
+    sed -i "s/api.pepshop.ca/$API_DOMAIN/g" /etc/nginx/sites-available/pepshop
     
     # Enable site
     ln -sf /etc/nginx/sites-available/pepshop /etc/nginx/sites-enabled/
