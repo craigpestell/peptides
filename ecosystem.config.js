@@ -24,7 +24,7 @@ module.exports = {
     {
       name: 'pepshop-frontend',
       script: 'npm',
-      args: 'start',
+      args: 'run dev',
       cwd: './pepshop-frontend',
       instances: 1,
       exec_mode: 'fork',

@@ -1,5 +1,5 @@
 {
-  "name": "pepshop",
+  "name": "pepshop-admin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,16 +11,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "@storecraft/core": "^1.3.0",
     "@storecraft/database-mongodb": "^1.3.0",
     "@storecraft/database-mysql": "^1.3.0",
     "@storecraft/mailer-providers-http": "^1.3.0",
-    "@storecraft/payments-stripe": "^1.3.0"
+    "@storecraft/payments-stripe": "^1.3.0",
+    "dotenv": "^17.2.3"
   },
   "devDependencies": {
-    "@types/node": "^25.0.3",
-    "dotenv": "^17.2.3"
-  }
+    "@types/node": "^25.0.8"
+  },
+  "type": "module"
 }

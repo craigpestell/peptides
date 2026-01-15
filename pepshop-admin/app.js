@@ -1,4 +1,10 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: path.join(__dirname, '.env.production') });
+
 import { OpenAI } from "@storecraft/core/ai/models/chat/openai"
 import { OpenAIEmbedder } from "@storecraft/core/ai/models/embedders/openai"
 import { MongoVectorStore } from "@storecraft/database-mongodb/vector-store"
@@ -12,14 +18,19 @@ import { FacebookAuth } from "@storecraft/core/auth/providers/facebook"
 import { App } from "@storecraft/core"
 import { PostmanExtension } from "@storecraft/core/extensions/postman"
 
-console.log('secret token:', process.env.AUTH_SECRET_ACCESS_TOKEN);
-
 export const app = new App({
   general_store_name: "pepshop",
+  general_store_website: "https://pepshop.ca",
+  general_store_description: "PepShop is your trusted source for high-quality research peptides. We provide a comprehensive selection of peptides for research purposes, backed by detailed protocols and educational resources. Our mission is to support researchers and scientific professionals with premium peptides, accurate product information, and exceptional customer service. All peptides are intended for research use only and should not be consumed unless under the direct supervision of a qualified healthcare professional. Discover our extensive catalog and experience the PepShop commitment to quality and research excellence.",
   auth_admins_emails: ["craigpestell@gmail.com"],
   general_store_support_email:
     "craigpestell@gmail.com",
-  auth_secret_access_token: process.env.AUTH_SECRET_ACCESS_TOKEN
+  auth_secret_access_token: process.env.SC_AUTH_SECRET_ACCESS_TOKEN,
+  auth_secret_refresh_token: process.env.SC_AUTH_SECRET_REFRESH_TOKEN,
+  cors: {
+    origin: ["https://pepshop.ca", "https://www.pepshop.ca"],
+    credentials: true
+  }
 })
   .withPlatform(new NodePlatform({}))
   .withDatabase(new MySQL({
@@ -46,15 +57,16 @@ export const app = new App({
     postman: new PostmanExtension(),
   })
   .withAI(new OpenAI({}))
-  .withVectorStore(
-    new MongoVectorStore({
-      url: process.env.MONGODB_URL,
-      db_name: process.env.MONGODB_DATABASE,
-      embedder: new OpenAIEmbedder({}),
-    }),
-  )
+  // .withVectorStore(
+  //   new MongoVectorStore({
+  //     url: process.env.MONGODB_URL,
+  //     db_name: process.env.MONGODB_DATABASE,
+  //     embedder: new OpenAIEmbedder({}),
+  //   }),
+  // )
   .withAuthProviders({
     google: new GoogleAuth({}),
     facebook: new FacebookAuth({}),
   })
   .init()
+
